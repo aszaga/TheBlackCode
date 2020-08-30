@@ -1,0 +1,284 @@
+/* ------Seccion Nav Jhonatan--- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header h2 {
+  color: #ffffff;
+  font-family: "Rubik-medium", sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  width: 100%;
+    position: fixed;
+  background-color: #099d8d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 999;
+}
+
+#navbar {
+  
+  display: contents;
+}
+
+#navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+#navbar ul li a {
+  color: #ffffff;
+  padding: 25px;
+  font-family: "Rubik-medium", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#sectionHeader {
+  background-image: url(../image/phone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+#section1Main {
+  margin-top: 200px;
+}
+
+#section1Main h2 {
+  text-align: center;
+  color: rgb(26, 160, 160);
+}
+#section1Main #parrafo1Section1Main {
+  text-align: center;
+  block-size: auto;
+  color: black;
+}
+
+#section1Main #parrafo2Section1Main {
+  text-align: center;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #b8b8b9;
+  padding: 30px;
+}
+
+footer p {
+  font-family: "Open Sans", sans-serif;
+  color: #b8b8b9;
+  font-size: 14px;
+}
+footer img {
+  width: 120px;
+  height: 100px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #54585a;
+  font-size: 14px;
+}
+
+/* -------Seccion form Astrid-------- */
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section1Main {
+  width: 442px;
+  margin-top: 30px;
+}
+
+#section1Main h2 {
+  text-align: center;
+  color: #099d8d;
+  padding: 15px;
+}
+#section1Main #parrafo1Section1Main {
+  text-justify: center;
+  font-family: "Open Sans", sans-serif;
+  color: #54585a;
+  font-size: 16px;
+  width: 439px;
+  padding: 15px;
+  margin: auto;
+}
+#parrafo2Section1Main #span{
+  color: #14d9c4;
+}
+
+#section1Main #parrafo2Section1Main {
+  text-align: center;
+  font-family: "Open Sans-regualar";
+  color: #54585a 100%;
+  padding: 20px;
+  font-size: 12px;
+}
+
+#form {
+  width: 442px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  background: #ffffff;
+  /* padding: 60px; */
+  /* box-shadow: 0 0 6px rgb(255, 255, 255, 0.8); */
+  display: block;
+}
+
+#form .div-formulario {
+  width: 100%;
+  /* padding: 15px; */
+
+  background: none;
+  color: #54585a;
+  font-family: "Open Sans-regular";
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+::placeholder {
+  color: #b8b8b9;
+}
+#form .div-formulario span {
+  color: #14d9c4;
+}
+#form .div-formulario label {
+  text-align: left;
+  font-family: "Open Sans-regular";
+  color: #54585a;
+  font-size: 16px;
+}
+#form .div-formulario input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px solid #b8b8b9;
+}
+
+#form .div-formulario textarea {
+  width: 100%;
+  height: 105px;
+}
+
+/* input{
+  
+  padding: 15px;
+  width: 28%;
+    
+} */
+.div-formulario-Btn {
+  text-align: right;
+}
+
+button {
+  width: 206px;
+  height: 45px;
+  background-color: #099d8d;
+  color: #ffffff;
+  font-family: "Open Sans-semiBold";
+  font-size: 16px;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 60px;
+}
+
+/* -----Media Query form----- */
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    margin-top: -91px;
+  }
+
+  #divHeaderH2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar ul {
+    width: 100%;
+    background-color: #14d9c4;
+  }
+
+  #navbar ul li a {
+    font-size: 13px;
+    padding: 2px;
+    margin: 5px;
+  }
+
+  main,
+  #section1Main {
+    width: 100%;
+  }
+  #section1Main #parrafo1Section1Main {
+    width: 95%;
+    font-size: 20px;
+  }
+  #section1Main #parrafo2Section1Main {
+    width: 90%;
+    font-size: 20px;
+  }
+  #span {
+    color: #14d9c4;
+  }
+
+  #form {
+    width: 85%;
+  }
+  .div-formulario {
+    width: 90%;
+  }
+  #form-contact {
+    width: 100%;
+  }
+
+  #form form label {
+    width: 80%;
+  }
+}
